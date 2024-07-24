@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Voting System - Registration</title>
+    <link rel="stylesheet" href="../css/stylesheet.css">
+</head>
+<body>
+
+    <style>
+        #address{
+            width:17%
+        }
+
+        #imagepart{
+            border: 2px solid black;
+            border-radius: 5px;
+            padding: 10px;
+            width: 17%;
+        }
+
+        #role{
+            border: 2px solid black;
+            border-radius: 5px;
+            padding: 10px;
+            width: 17%;
+        }
+
+        #role select{
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+    <center>
+    <h1 style ="font-family: cursive;">Online Voting System</h1>
+    <hr>
+    <h2>Registration</h2>
+    <form action="../api/register.php" method="POST" enctype="multipart/form-data">
+        <input type="text" name="name" placeholder="Enter name">
+        <input type="number" name="mobile" placeholder="Enter mobile"><br><br>
+        <input type="password" name="password" placeholder="Password">
+        <input type="password" name="cpassword" placeholder="Confirm Password"><br><br>
+        <input id="address" type="text" name="address" placeholder="Address"><br><br>
+
+        <div id ="imagepart">
+            Upload image: <input type="file" name="photo"><br><br>
+        </div>
+        <br>
+        <div id="role">
+            Select your role: <select name="role">
+                <option value="1">Voter</option>
+                <option value="2">Group</option>
+                <option value="3">Admin</option>
+            </select>
+        </div>
+        <br>
+        <button style="padding: 10px;
+                       font-size: 15px;
+                       border-radius: 5px;
+                       background-color: #3498db;
+                       color: white;">
+            Register</button><br><br>
+        Already User?<a href="../index.html">Login here</a>
+    </form>
+</center>
+</body>
+</html>
