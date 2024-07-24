@@ -33,7 +33,11 @@ PHP & MySQL: For backend and database management.
 ## Key Components
 Login Page: User authentication with role selection.
 
+![image](https://github.com/user-attachments/assets/9d0013ed-fe12-45b5-b562-15cc02d7779c)
+
 Register Page: User registration with detailed information.
+
+![image](https://github.com/user-attachments/assets/97e7bcc4-fed2-48bc-af9e-3f8c2573003c)
 
 Database Connection: Secure connection and data insertion in MySQL.
 
@@ -42,9 +46,13 @@ The system successfully facilitates secure and efficient voting. Users can:
 
 View the voting status and results.
 
+![image](https://github.com/user-attachments/assets/d6b3c3bc-4b9e-4790-89e0-0d87ed4a82b4)
+
 Cast a vote securely.
 
 Experience a seamless and user-friendly interface.
+
+![image](https://github.com/user-attachments/assets/722bae28-cc37-4e06-ba8a-ebd7153e2f9b)
 
 ## Future Work
 Enhance security measures continuously.
